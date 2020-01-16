@@ -1,0 +1,19 @@
+{
+    "name": "~~~name~~~",
+    "version": "0.0.0",
+    "repository": "~~~url~~~",
+    "scripts": {
+        "setup": "yarn install && guild link",
+        "start": "node lib/server.js",
+        "watch": "guild watch",
+        "clean": "guild clean"
+    },
+    "private": true,
+    "dependencies": {
+        "@glas/platform": "*"
+    },
+    "devDependencies": {
+        "@glas/build": "^0.2.3",
+        "ava": "^1.0.1"
+    }
+}
