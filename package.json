@@ -1,7 +1,7 @@
 {
-    "name": "~~~name~~~",
+    "name": "@glas/hello",
     "version": "0.0.0",
-    "repository": "~~~url~~~",
+    "repository": "https://github.com/glassorg/hello.git",
     "scripts": {
         "setup": "yarn install && guild link",
         "start": "node lib/server.js",
