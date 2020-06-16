@@ -1,3 +1,3 @@
 import { hello } from "../index";
 
-console.log(hello("Index"))
+console.log(hello("Foo"))
